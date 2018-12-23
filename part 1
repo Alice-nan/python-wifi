@@ -1,0 +1,9 @@
+import requests
+import os
+import time 
+while True:
+    status = os.system('ping -c 1 www.baidu.com')
+    if status == 1:
+        print (u'wifi掉线')
+    #登录地址
+        post_addr="http://a.nuist.edu.cn/index.php/index/login"#abc
